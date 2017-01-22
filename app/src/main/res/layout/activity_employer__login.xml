@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_employer__login"
+tools:context="com.example.babu.jobsandesh.Employer_LoginActivity"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="EMPLOYER LOGIN"
+    android:textSize="30sp"
+    android:textAlignment="center"
+    android:textColor="#000000"/>
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="numberPassword"
+    android:layout_marginTop="20dp"
+    android:id="@+id/etseek_username"
+    android:hint="username"/>
+
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:id="@+id/editseekpassword"
+    android:hint="Password"
+    />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:onClick="insert"
+        android:textColor="@color/textColorPrimary"
+        android:background="#455a64"
+        android:id="@+id/button" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/textColorPrimary"
+        android:onClick="insert"
+
+        android:layout_marginTop="20dp"
+        android:background="#455a64"
+        android:id="@+id/button2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Using G+ google"
+        android:textColor="@color/textColorPrimary"
+        android:onClick="insert"
+        android:id="@+id/button3"
+        android:background="#b7171c"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
+
+</LinearLayout>
