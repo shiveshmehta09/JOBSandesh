@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +18,7 @@
         <activity android:name=".Employer_LoginActivity" />
         <activity android:name=".jobseeker.JobseekRegisterActivity" />
         <activity android:name=".employer.employerRegisterActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
         <activity
             android:name=".jobseeker.JobseekNavActivity"
             android:label="@string/title_activity_jobseek_nav"
