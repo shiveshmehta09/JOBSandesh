@@ -14,7 +14,6 @@ public class LoginActivity extends AppCompatActivity
     EditText jobseekUsername,jobseekPass;
     Button jobseek_login,jobseek_register;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +39,5 @@ public class LoginActivity extends AppCompatActivity
                         startActivity(intent);
             }
         });
-
     }
 }

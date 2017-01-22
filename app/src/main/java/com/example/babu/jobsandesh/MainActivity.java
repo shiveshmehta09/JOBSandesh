@@ -10,8 +10,7 @@ import com.example.babu.jobsandesh.employer.Employer_LoginActivity;
 import com.example.babu.jobsandesh.jobseeker.LoginActivity;
 
 
-public class MainActivity extends AppCompatActivity
-{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button jobseek,emp;
 
 
@@ -21,7 +20,10 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         jobseek = (Button)findViewById(R.id.bt_jobseek);
         emp = (Button)findViewById(R.id.bt_emp);
-        jobseek.setOnClickListener(new View.OnClickListener() {
+
+        jobseek.setOnClickListener(this);
+        emp.setOnClickListener(this);
+        /*jobseek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
@@ -35,6 +37,18 @@ public class MainActivity extends AppCompatActivity
                 Intent intent = new Intent(MainActivity.this, Employer_LoginActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
+    }
+
+    @Override
+    public void onClick(View v) {
+        if(v.getId()==R.id.bt_jobseek)
+        {
+            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(intent);
+        } else {
+            Intent intent = new Intent(MainActivity.this, Employer_LoginActivity.class);
+            startActivity(intent);
+        }
     }
 }
