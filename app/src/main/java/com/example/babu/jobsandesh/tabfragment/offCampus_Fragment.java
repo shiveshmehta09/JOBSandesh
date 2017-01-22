@@ -15,8 +15,9 @@ import com.example.babu.jobsandesh.R;
 public class offCampus_Fragment extends Fragment {
 
 
-    public offCampus_Fragment() {
-        // Required empty public constructor
+    public offCampus_Fragment()
+    {
+
     }
 
 

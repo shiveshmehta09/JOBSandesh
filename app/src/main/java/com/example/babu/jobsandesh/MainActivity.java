@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.babu.jobsandesh.employer.Employer_LoginActivity;
+import com.example.babu.jobsandesh.jobseeker.LoginActivity;
 
 
 public class MainActivity extends AppCompatActivity
@@ -23,6 +25,14 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        emp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Employer_LoginActivity.class);
                 startActivity(intent);
             }
         });

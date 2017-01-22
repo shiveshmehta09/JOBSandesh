@@ -1,4 +1,4 @@
-package com.example.babu.jobsandesh;
+package com.example.babu.jobsandesh.jobseeker;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,8 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.babu.jobsandesh.jobseeker.JobseekNavActivity;
-import com.example.babu.jobsandesh.jobseeker.JobseekRegisterActivity;
+import com.example.babu.jobsandesh.R;
 
 public class LoginActivity extends AppCompatActivity
 {

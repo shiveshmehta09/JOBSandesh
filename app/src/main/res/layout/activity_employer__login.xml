@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 android:id="@+id/activity_employer__login"
-tools:context="com.example.babu.jobsandesh.Employer_LoginActivity"
+tools:context="com.example.babu.jobsandesh.employer.Employer_LoginActivity"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -24,7 +24,7 @@ android:orientation="vertical">
     android:layout_height="wrap_content"
     android:inputType="numberPassword"
     android:layout_marginTop="20dp"
-    android:id="@+id/etseek_username"
+    android:id="@+id/etemp_username"
     android:hint="username"/>
 
 
@@ -32,7 +32,7 @@ android:orientation="vertical">
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="20dp"
-    android:id="@+id/editseekpassword"
+    android:id="@+id/etemp_pass"
     android:hint="Password"
     />
 
@@ -49,7 +49,7 @@ android:orientation="vertical">
         android:onClick="insert"
         android:textColor="@color/textColorPrimary"
         android:background="#455a64"
-        android:id="@+id/button" />
+        android:id="@+id/btemp_login" />
 
     <Button
         android:layout_width="match_parent"
@@ -60,7 +60,7 @@ android:orientation="vertical">
 
         android:layout_marginTop="20dp"
         android:background="#455a64"
-        android:id="@+id/button2" />
+        android:id="@+id/btemp_register" />
 
     <Button
         android:layout_width="match_parent"
@@ -68,7 +68,7 @@ android:orientation="vertical">
         android:text="Login Using G+ google"
         android:textColor="@color/textColorPrimary"
         android:onClick="insert"
-        android:id="@+id/button3"
+        android:id="@+id/btemp_gmail"
         android:background="#b7171c"
         android:layout_marginTop="20dp"/>
 </LinearLayout>
