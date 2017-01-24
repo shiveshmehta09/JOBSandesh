@@ -1,5 +1,4 @@
 package com.example.babu.jobsandesh.jobseeker;
-
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -10,13 +9,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.example.babu.jobsandesh.R;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -47,21 +43,6 @@ public class JobseekerLoginActivity extends AppCompatActivity implements View.On
 
         login_button.setOnClickListener(this);
         button_throw_registerActivity.setOnClickListener(this);
-/*login_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v)
-            {
-                Intent intent = new Intent(LoginActivity.this, JobseekNavActivity.class);
-                startActivity(intent);
-            }
-        });
-        button_throw_registerActivity.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, JobseekRegisterActivity.class);
-                        startActivity(intent);
-            }
-        });*/
 
     }
 

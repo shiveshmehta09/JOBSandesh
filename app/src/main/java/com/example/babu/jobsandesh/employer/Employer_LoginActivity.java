@@ -28,8 +28,10 @@ public class Employer_LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(Employer_LoginActivity.this,Employer_LoginActivity.class);
-                startActivity(intent);
+                Intent i = new Intent(Employer_LoginActivity.this,EmpNavigationActivity.class);
+                startActivity(i);
+                /*Intent intent = new Intent(Employer_LoginActivity.this,EmpNavigationActivity.class);
+                startActivity(intent);*/
             }
         });
         emp_register.setOnClickListener(new View.OnClickListener() {

@@ -9,15 +9,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name= ".SplashScreen"
+            android:name=".SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">
-         <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,25 +24,24 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".jobseeker.JobseekerLoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".jobseeker.JobseekerLoginActivity" >
-        <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-
-        <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
         <activity android:name=".employer.Employer_LoginActivity" />
         <activity android:name=".jobseeker.JobseekRegisterActivity" />
         <activity android:name=".employer.employerRegisterActivity" />
-
-
         <activity
             android:name=".jobseeker.JobseekNavActivity"
             android:label="@string/title_activity_jobseek_nav"
             android:theme="@style/AppTheme.NoActionBar" />
-
-
+        <activity
+            android:name=".employer.EmpNavigationActivity"
+            android:label="@string/title_activity_emp_navigation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

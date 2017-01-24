@@ -22,7 +22,7 @@ android:orientation="vertical">
     <EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:inputType="numberPassword"
+    android:inputType="text"
     android:layout_marginTop="20dp"
     android:id="@+id/etemp_username"
     android:hint="username"/>
